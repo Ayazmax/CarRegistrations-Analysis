@@ -1,0 +1,9 @@
+# Read-heavy workload
+recordcount=50000
+operationcount=50000
+workload=site.ycsb.workloads.CoreWorkload
+
+readproportion=0.95
+updateproportion=0.05
+table=car_registrations
+columnfamily=cf
